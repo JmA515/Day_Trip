@@ -21,3 +21,8 @@ console.log(typeOfTransportation);
 let funThingsToDo = randomItems(formOfEntertainment);
 console.log(funThingsToDo);
 
+let userInput = prompt("You're destination is" + place + "." +
+ "You're type of dining is" + typeOfFood + "." +
+ "You're mode of transportation will be" + typeOfTransportation + "." +
+ "And you will be enjoying" + funThingsToDo + "." +
+ "Are you happy with the current selection? Yes or No.");
